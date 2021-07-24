@@ -1,0 +1,31 @@
+DIRECTIVES
+
+%a - locale's abbreviated weekday name
+%A - locale's full weekday name
+%b - locale,s abbreviated month name
+%c - locale's appropriate date and time representation
+%d - day of month as a decimal no. [01,31]
+%H - 24 hr clock as a decimal no. [00,23]
+%I - 12 hr clock as a decimal no. [01,12]
+%j - day of year as a decimal no. [001,366]
+%m - month as a decimal no. [01,12]
+%M - minute as a decimal no. [00,59]
+%p - locale's equivalent of either AM or PM
+%S - second as a decimal no. [00,61]
+%U - week no. of the year as a decimal no. [00,53]. 1st day - sunday. all days in a new year preceeding the first sunday are considered to be in week 0
+%w - weekday as a decimal no. [0(sunday),6]
+%W - week no. of the year as a decimal no. [00,53]. 1st day - monday. all days in a new year preceeding the first monday are considered to be in week 0
+%x - locale's appropriate date representation
+%X - locale's appropriate time representation
+%y - year without century as a decimal no. [00,99]
+%Y - year with century as a decimal no.
+%z - time zone offset indicating a positive or negative time difference from UTC/GMT of the form +HHMM or -HHMM, where H represents
+
+import datetime
+currentDT=datetime.datetime.now()
+print("current year is : %d" % currentDT.year)
+print("current month is : %d" % currentDT.month)
+print("current day is : %d" % currentDT.day)
+print("current hour is : %d" % currentDT.hour)
+print("current minute is : %d" % currentDT.minute)
+print("current second is : %d" % currentDT.second)

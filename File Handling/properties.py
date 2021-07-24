@@ -1,0 +1,7 @@
+f=open("arihant.txt","w")
+print("name : ",f.name)
+print("mode : ",f.mode)
+print("closed : ",f.closed)
+print("readable : ",f.readable())
+print("writable : ",f.writable())
+f.close()

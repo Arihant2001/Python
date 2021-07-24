@@ -1,0 +1,9 @@
+num=40
+if(num==20):
+    print("ok")
+elif(num==30):
+    print("fine")
+elif(num==40):
+    print("accurate")
+else:
+    print("invalid")
